@@ -6,6 +6,35 @@
 All colors MUST be HSL.
 */
 
+/* Testing App Theme Colors */
+:root {
+  /* Testing specific colors */
+  --success: 142 71% 45%;
+  --success-foreground: 355.7 100% 97.3%;
+  --warning: 48 96% 53%;
+  --warning-foreground: 20 14.3% 4.1%;
+  --info: 221.2 83.2% 53.3%;
+  --info-foreground: 210 40% 98%;
+  
+  /* Test status colors */
+  --test-passed: 142 71% 45%;
+  --test-failed: 0 84.2% 60.2%;
+  --test-pending: 48 96% 53%;
+  --test-running: 221.2 83.2% 53.3%;
+  
+  /* Analysis colors */
+  --security-critical: 0 84.2% 60.2%;
+  --security-high: 25 95% 53%;
+  --security-medium: 48 96% 53%;
+  --security-low: 142 71% 45%;
+  
+  /* Performance colors */
+  --performance-excellent: 142 71% 45%;
+  --performance-good: 84 91% 60%;
+  --performance-average: 48 96% 53%;
+  --performance-poor: 0 84.2% 60.2%;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
