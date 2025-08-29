@@ -4,14 +4,14 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { 
-  Shield, 
-  Zap, 
-  Code, 
-  FileText, 
-  CheckCircle, 
-  AlertTriangle, 
-  XCircle, 
+import {
+  Shield,
+  Zap,
+  Code,
+  FileText,
+  CheckCircle,
+  AlertTriangle,
+  XCircle,
   Clock,
   Upload,
   Download,
@@ -63,7 +63,7 @@ export default function TestingDashboard() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold text-foreground">Test Analysis Platform</h1>
-              <p className="text-muted-foreground">Pirâmide completa de testes para aplicações Java, C#, Go e Rust</p>
+              <p className="text-muted-foreground">Pirâmide completa de testes para aplicações Java, C#, Go e Rust, dentre outras linguagens.</p>
             </div>
             <div className="flex gap-4">
               <Button variant="outline" size="sm">
