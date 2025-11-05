@@ -8,7 +8,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Calendar } from '@/components/ui/calendar';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { CalendarIcon, Download, FileText, BarChart3, TrendingUp, Shield, Zap, CheckCircle } from 'lucide-react';
-import { ManualPDFGenerator } from './ManualPDFGenerator';
 
 interface ReportMetric {
   name: string;
@@ -452,8 +451,6 @@ export function ReportsModule() {
         </TabsContent>
 
         <TabsContent value="schedule" className="space-y-4">
-          <ManualPDFGenerator />
-          
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
